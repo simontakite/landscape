@@ -1,0 +1,514 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - interactive-landscape > @babel/node > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-plugin-lodash > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > cheerio > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > css-loader > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > eslint > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > eslint-plugin-import > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > eslint-watch > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > html-webpack-plugin > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > react-twitter-widgets > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > sitemap > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > string-replace-all > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > svg-autocrop > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > why-did-you-update > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > eslint > inquirer > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > eslint > table > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > react-key-handler > eslint-plugin-flowtype > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > webapp-webpack-plugin > favicons > cheerio > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-resolve-dependencies > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-resolve-dependencies > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > istanbul-reports > handlebars > async > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > istanbul-reports > handlebars > async > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > babel-preset-latest-node > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
+    - interactive-landscape > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T08:12:40.007Z'
